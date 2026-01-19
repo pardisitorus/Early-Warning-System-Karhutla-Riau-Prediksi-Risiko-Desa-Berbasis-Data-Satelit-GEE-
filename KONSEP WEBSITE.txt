@@ -1,0 +1,21 @@
+JADI KONSEPNYA TUH : 
+
+PREDIKSI DAN PERINGATAN DINI BENCANA KEBAKARAN HUTAN DESA DI PROVINSI RIAU
+
+WEBSITENYA BISA MENAMPILKAN PETA-PETA WILAYAH YANG BERPOTENSI KEBAKARAN HUTAN, DARI WARNA KUNING DAN MERAH, MAKIN MERAH DIA, MAKIN TINGGI PERINGATANNYA.
+
+USER MEMASUKKAN TANGGAL BERAPA YANG DI PRDIKSI, DATA DIAMBIL DAN DIGUNAKAN ADALAH DAYA YANG TERAKHIR UPDATE DATA GEE NYA, DAN SETELAH KLIK PREDIKSI WEBSITE MENAMPILKAN 100 DESA YANG PALING BERPOTENSI SEKALI KEBAKARAN, YANG DIMANA DATA YANG DITAMPILKAN ITU 10 AJA CUMAN BISA DI SCROLL SAMPAI 1OO. LALU  MUNCUL NOTIFIKASI APA AJA YANG HARUS SEBAGAI MASYARAKAT DESA DILAKUKAN DALAM TINGKATAN LEVEL YAKNI : 
+1. TINDAKAN UNTUK PALING MERAH YANG BERPOTENSI PASTI KEBAKARAN, 
+2. TINDAKAN UNTUK YANG BERPOTENSI KEBAKARAN 1 MELIPUTI SUHU EXTREM, CUACA HUJAN JARANG, DAN NDVI YANG RENDAH
+
+JIKA ADA FITUR YANG RELEVAN DAN EFEKTIF BERITAHU SAYA, DAN BUATKAN DAN TAMBAHKAN KEDALAM LIST PROJEK
+
+
+
+
+PROMPT CODEX
+
+
+"Buatkan kode lengkap untuk aplikasi web profesional berbasis Python Flask yang dirancang khusus sebagai sistem peringatan dini kebakaran hutan di Provinsi Riau dengan mengintegrasikan model machine learning Stacking Classifier yang menggabungkan XGBoost dan Random Forest menggunakan parameter regularisasi sangat ketat demi mencapai target Recall mutlak seratus persen dan Presisi di atas enam puluh persen. Pada bagian backend atau file app.py, Anda harus mengimplementasikan fitur Feature Engineering secara manual untuk menghitung variabel X1 yang merupakan hasil perkalian LST dan NDVI, variabel X2 sebagai nilai magnitudo dari akar kuadrat penjumlahan kuadrat LST dan NDVI, serta variabel X3 yang dihitung menggunakan log satu plus dari rasio NDVI terhadap curah hujan ditambah nilai epsilon kecil. Selain itu, sertakan fungsi booster probabilitas menggunakan faktor dua puluh lima poin nol untuk menggeser kurva probabilitas agar hasil prediksi model dapat melampaui ambang batas atau threshold tinggi di rentang nol poin enam puluh empat hingga nol poin delapan puluh satu. Pastikan terdapat rute utama yang mampu menerima input tanggal dari pengguna dan melakukan simulasi pengambilan data parameter cuaca serta vegetasi dari API Google Earth Engine mencakup LST Maksimal, NDVI Maksimal, dan Curah Hujan Maksimal pada tanggal tersebut, di mana hasil prediksi akhirnya harus diurutkan secara menurun berdasarkan probabilitas tertinggi untuk menyaring seratus desa dengan risiko paling ekstrem di Riau. Untuk bagian antarmuka, gunakan framework Tailwind CSS agar desain terlihat modern serta library Leaflet JS untuk menampilkan peta interaktif wilayah Riau yang dilengkapi dengan marker dinamis berwarna merah untuk probabilitas di atas nol poin delapan puluh dan warna kuning untuk rentang nol poin enam puluh empat hingga nol poin tujuh puluh sembilan. Di sisi peta, buatlah sebuah kontainer daftar desa yang memiliki fitur scroll otomatis di mana hanya menampilkan sepuluh desa secara bersamaan namun menampung hingga seratus desa terpilih. Tambahkan pula panel informasi notifikasi tindakan masyarakat yang bersifat leveling, di mana Level Merah atau Danger akan memberikan instruksi tegas terkait aktivasi regu pemadam desa dan larangan pembakaran total, sementara Level Kuning atau Warning akan memberikan instruksi pencegahan berupa patroli rutin di lahan gambut serta pemantauan tinggi muka air tanah akibat kondisi vegetasi yang kering dan suhu ekstrem. Terakhir, susunlah struktur file proyek ini secara rapi termasuk penyediaan file requirements.txt yang berisi library Flask, scikit-learn, xgboost, pandas, numpy, serta joblib, lengkap dengan panduan teknis langkah demi langkah untuk menjalankan aplikasi di lingkungan lokal maupun prosedur deployment secara gratis ke platform Render melalui integrasi repositori GitHub." Dan data paling terbaru diambil dari API GEE yakni variabel asal lst, curah hujan, dan ndvi.
+
+saya tidak memberikan anda batasan akses ke visual code, anda bisa akses apapun tanpa persetujuan saya, bahkan terminal, saya berikan kepercayaan sepenuhnya kepada anda. saya mau webstinya sudah jadi dan online
